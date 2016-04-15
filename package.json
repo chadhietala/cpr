@@ -31,7 +31,6 @@
     "cp"
   ],
   "scripts": {
-    "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/",
     "windows-test": "vows --spec ./tests/full.js",
     "test": "istanbul cover --print both -- vows --spec ./tests/full.js",
     "posttest": "istanbul check-coverage --statement 98 --branch 95 --function 95 --line 98"
